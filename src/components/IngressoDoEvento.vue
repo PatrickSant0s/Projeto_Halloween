@@ -8,7 +8,7 @@
       contests. Join us for a night of magic and fright!
     </p>
     <div class="ticket">
-      <div class="ingresso">
+      <div class="ingressoEvento">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="48"
@@ -50,7 +50,7 @@
 
 <script>
 export default {
-    name:"Ingresso"
+    name:"IngressoDoEvento"
 };
 </script>
 
@@ -118,7 +118,7 @@ export default {
 
 }
 
-.ingresso {
+.ingressoEvento {
     display: flex;
     justify-content: center;
     align-items: center;
