@@ -59,6 +59,7 @@ a {
   cursor: pointer;
 }
 .container {
+  margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-content: space-between;
