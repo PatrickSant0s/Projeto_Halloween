@@ -13,15 +13,24 @@
 
 
 <script>
+
+import { menuDeNavegacao } from "@/utils/menuItens"
 export default {
   name: "MenuPrincipal",
   data() {
     return {
-      menuDeNavegacao: [{ titulo: "Home", href: "" },{ titulo: "Gallery", href: "" },{ titulo: "About Party", href: "" },{ titulo: "Reservation", href: "" },
-      { titulo: "Contacts", href: "" }
-    ],
+     
+
+
     };
   },
+
+computed:{
+    menuDeNavegacao(){
+      return menuDeNavegacao
+    }
+}
+
 };
 </script>
 
